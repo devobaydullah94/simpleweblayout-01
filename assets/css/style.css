@@ -1,0 +1,58 @@
+/* Logo */
+
+.navbar-brand img{
+    width: 170px;
+    max-height: 42px;
+}
+
+/* My Name */
+
+#about p strong a{
+    color: #808080;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+}
+
+#about:hover p strong a{
+    color: #f36666;
+}
+
+/* Menu Background */
+
+#navbarNav .nav-item{
+    transition: ease-in-out 0.3s;
+}
+
+#navbarNav .nav-item:hover{
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+/* Logo Hover */
+
+#logo .navbar-brand img {
+    filter: grayscale(100%);
+    transition: ease-in-out 0.3s;
+}
+
+#logo .navbar-brand img:hover {
+    filter: grayscale(0%);
+}
+
+/* Services Hover */
+
+.card {
+    transition: ease-in-out 0.3s;
+}
+
+.card:hover{
+    border: #808080 1px solid;
+    box-shadow: 2px 5px 10px #888888 !important;
+}
+
+/* Section Heading Color */
+
+.section_heading {
+    color: #808080;
+    text-transform: uppercase;
+}
